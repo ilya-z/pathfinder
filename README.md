@@ -9,7 +9,8 @@ How use:
 * npm install
 * npm run dev
 ```
-Open browser with localhost:8080. Webpack watches all changes in src/ and generates source for bin-debug/. 
+Open browser with localhost:8080. 
+Webpack watches all changes in src/ and generates source for bin-debug/. 
 Webpack local webserver works with bin-debug/
 ```
 How make release:
