@@ -1,0 +1,6 @@
+{
+  "name": "pathfinders",
+  "root": "bin-release",
+  "clean_urls": true,
+  "error_page": "error.html"
+}
