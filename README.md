@@ -19,7 +19,7 @@ How make release:
 Webpack makes release version in bin-release/
 ```
 How deploy app to firebase:
-* run firebase init
+* firebase init
 * npm run deploy
 
 Enjoy
