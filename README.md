@@ -1,5 +1,5 @@
 ## ES6 example - Pathfinder
-Live preview: [http://pathfinders.divshot.io](http://pathfinders.divshot.io)
+Live preview: [https://pathfinders.firebaseapp.com/](https://pathfinders.firebaseapp.com/)
 
 Simple example, how generate map and find path between two points with ES6.
 
@@ -18,8 +18,8 @@ How make release:
 ```
 Webpack makes release version in bin-release/
 ```
-How deploy app to divshot:
-* change your app name in *divshot.json* 
+How deploy app to firebase:
+* run firebase init
 * npm run deploy
 
 Enjoy
