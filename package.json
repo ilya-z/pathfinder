@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack && webpack-dev-server --devtool eval --progress --colors --content-base bin-debug",
     "release": "webpack --optimize-minimize --optimize-dedupe --production=true --release",
-    "deploy": "divshot push"
+    "deploy": "firebase deploy"
   },
   "author": "ilya zaitsev",
   "license": "BSD-2-Clause",
