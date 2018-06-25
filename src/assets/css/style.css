@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+pre {
+    width: 100%;
+    height: 100%;
+    font-family: monospace;
+    font-size: 1.18vw;
+    letter-spacing: 0.205em;
+    text-indent: 0;
+    line-height: 0.8em;
+    margin: 0 auto 10px auto;
+    word-wrap: normal;
+    border: none;
+    background-color: #ffffff;
+    clear: both;
+}
+
+pre i {
+    color: #5beb8d;
+}
+
+pre b {
+    color: #ff6224;
+}
+
+header, main {
+    margin: 30px;
+}
+
+form {
+    width: 100px;
+    float: left;
+    margin: 0 0 30px 20px;
+}
+
+button {
+    float: left;
+    height: 40px;
+}

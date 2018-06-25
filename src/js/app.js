@@ -1,6 +1,7 @@
 import Host from './host.js';
 import FontRenderer from './render/font.js';
 import SvgRenderer from './render/svg.js';
+import '../assets/css/style.css';
 
 document.addEventListener("DOMContentLoaded", function(event) {
 

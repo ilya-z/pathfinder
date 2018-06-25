@@ -2,47 +2,23 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>ES6 PathFinder</title>
 </head>
 <body>
-
-    <div class="page-header">
-        <div class="row row-centered">
-            <div class="col-lg-9 col-xs-12 col-sm-12 col-centered">
-                <h1>PathFinder</h1>
-                <p>ES6 experiment, modules, classes, set, arrow functions, let, const, svg etc</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row row-centered">
-            <div class="col-lg-8 col-md-12 col-xs-12 col-sm-12 col-centered">
-
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-
-                        <form class="form-inline">
-                            <div class="form-group">
-                                <label class="radio-inline">
-                                    <input type="radio" name="radioHowRender" id="inlineRadio1" value="svg" checked>SVG
-                                </label>
-                            </div>
-                            <div class="form-group">
-                                <label class="radio-inline">
-                                    <input type="radio" name="radioHowRender" id="inlineRadio2" value="font">Font
-                                </label>
-                            </div>
-                            <button id="buttonGenerate" type="button" class="btn btn-default">Generate</button>
-                        </form>
-
-                    </div>
-                    <div id="area" class="panel-body">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <header>
+        <h1>PathFinder</h1>
+        <p>ES6 experiment, modules, classes, set, arrow functions, let, const, svg etc</p>
+    </header>
+    <main>
+        <form>
+            <label for="inlineRadio1">SVG</label>
+            <input type="radio" name="radioHowRender" id="inlineRadio1" value="svg" checked>
+            <br>
+            <label for="inlineRadio2">Font</label>
+            <input type="radio" name="radioHowRender" id="inlineRadio2" value="font">
+        </form>
+        <button id="buttonGenerate" type="button" class="btn btn-default">Generate</button>
+        <div id="area" class="panel-body"></div>
+    </main>
 </body>
 </html>
