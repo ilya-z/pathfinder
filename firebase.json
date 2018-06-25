@@ -1,9 +1,10 @@
 {
-  "firebase": "pathfinders",
-  "public": "bin-release",
-  "ignore": [
-    "*.json",
-    "**/.*",
-    "**/node_modules/**"
-  ]
+  "hosting": {
+    "public": "bin-release",
+    "ignore": [
+      "*.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
 }
