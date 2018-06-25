@@ -7,18 +7,13 @@ Two way renderer: svg and font.
 
 How use:
 * npm install
-* npm run dev
+* npm run build
+* npm run serve
 ```
-Open browser with localhost:8080
-Webpack watches all changes in src/ and generates source for bin-debug/
-Webpack local webserver works with bin-debug/
+Open browser with localhost:3000
 ```
-How make release:
-* npm run release
-```
-Webpack makes release version in bin-release/
-```
-How deploy app to firebase:
+
+How deploy app to Firebase:
 * firebase init
 * npm run deploy
 
