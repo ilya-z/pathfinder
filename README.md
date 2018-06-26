@@ -1,11 +1,11 @@
 ## ES6 example - Pathfinder
-Live preview: [https://pathfinder-js.firebaseapp.com//](https://pathfinder-js.firebaseapp.com/)
+Live preview: [https://pathfinder-js.firebaseapp.com/](https://pathfinder-js.firebaseapp.com/)
 
-Simple example, how generate map and find path between two points with ES6.
+Simple algorithm, how to generate a map and find the path between two points with ES6.
 
-Two way renderer: svg and font.
+Two-ways renderer: svg and font.
 
-How use:
+How to use:
 * npm install
 * npm run build
 * npm run serve
@@ -13,7 +13,7 @@ How use:
 Open browser with localhost:3000
 ```
 
-How deploy app to Firebase:
+How to deploy app to Firebase:
 * firebase init
 * npm run deploy
 
