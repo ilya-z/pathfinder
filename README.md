@@ -1,5 +1,5 @@
 ## ES6 example - Pathfinder
-Live preview: [https://pathfinders.firebaseapp.com/](https://pathfinders.firebaseapp.com/)
+Live preview: [https://pathfinder-js.firebaseapp.com//](https://pathfinder-js.firebaseapp.com/)
 
 Simple example, how generate map and find path between two points with ES6.
 
